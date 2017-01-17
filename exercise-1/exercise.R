@@ -30,4 +30,4 @@ print(even)
 
 # Using the `all()` function and `%%` (modulo) operator, confirm that all of the
 # numbers in your `even` vector are even
-all(even %% even)
+all((even %% 2) == 0)
